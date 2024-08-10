@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upwork-like Home Page</title>
+    <link rel="stylesheet" href="{% static 'myapp/css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>MyProject</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="#">Find Talent</a>
+                        <div class="dropdown-content">
+                            <div class="dropdown">
+                                <a href="#">Post a Job</a>
+                                <div class="dropdown-subcontent">
+                                    <a href="#">Dev Web</a>
+                                    <a href="#">Design</a>
+                                    <a href="#">Sales</a>
+                                    <a href="#">Writing</a>
+                                    <a href="#">HR</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <a href="#">Buy Projects</a>
+                                <div class="dropdown-subcontent">
+                                    <a href="#">Logo Design</a>
+                                    <a href="#">Articles</a>
+                                    <a href="#">WordPress</a>
+                                    <a href="#">Video</a>
+                                    <a href="#">SEO</a>
+                                    <a href="#">Social Media</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Find Work</a>
+                        <div class="dropdown-content">
+                            <a href="#">Ways to Earn</a>
+                            <a href="#">Find Work that Matches Your Skills</a>
+                            <a href="#">Win Work through Advertising</a>
+                            <a href="#">Join Freelance Plus</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Why Us</a>
+                        <div class="dropdown-content">
+                            <a href="#">Ways to Earn</a>
+                            <a href="#">Find Work that Matches Your Skills</a>
+                            <a href="#">Win Work thro<section class="hero">
+                                <div class="container<section class="hero">
+            <div class="container">
+                <h2>Hire Freelancers & Find Freelance Jobs Online</h2>
+                <p>Collaborate easily. Work confidently.</p>
+                <button>Get Started</button>
+            </div>
+        </section>">
+                                    <h2>Hire Freelancers & Find Freelance Jobs Online</h2>
+                                    <p>Collaborate easily. Work confidently.</p>
+                                    <button>Get Started</button>
+                                </div>
+                            </section>ugh Advertising</a>
+                            <a href="#">Join Freelance Plus</a>
+                        </div>
+                    </li>
+                    <li><a href="#">Enterprise</a></li>
+                </ul>
+            </nav>
+            <div class="search-login">
+                <input type="text" placeholder="Search...">
+                <button ><a href="#">Login</a></button>
+                <button ><a href="#">Join</a></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Hire Freelancers & Find Freelance Jobs Online</h2>
+                <p>Collaborate easily. Work confidently.</p>
+                <button>Get Started</button>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-cards">
+                    <div class="card">
+                        <h3>Post a Job</h3>
+                        <p>Describe your project and the specific skills required.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Find Talent</h3>
+                        <p>Get qualified proposals within 24 hours. Compare bids, reviews, and prior work.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Work Easily</h3>
+                        <p>Use our platform to chat or video call, share files, and track project milestones.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Secure Payments</h3>
+                        <p>Pay hourly or fixed-price and receive invoices through our platform.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MyProject. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="{% static 'myapp/js/scripts.js' %}"></script>
+</body>
+</html>
